@@ -1,0 +1,71 @@
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*.code-workspace
+.vscode/
+.idea/
+
+# --- Python caches & virtual envs ---
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+ENV/
+.python-version
+pip-wheel-metadata/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Logs, temp, coverage ---
+*.log
+*.tmp
+*.temp
+.cache/
+coverage.xml
+htmlcov/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pylint.d/
+.pyre/
+.tox/
+.nox/
+
+# --- Project-specific (large / generated) ---
+# Datasets
+Dataset/
+**/Dataset/
+
+# Model artifacts & arrays
+model/
+model1/
+**/model/               # any nested 'model' directories
+**/checkpoints/
+**/runs/
+**/logs/
+
+# Common ML binaries
+*.keras
+*.h5
+*.hdf5
+*.pkl
+*.pckl
+*.pickle
+*.npy
+*.npz
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Secrets / env files
+.env
+.env.*
