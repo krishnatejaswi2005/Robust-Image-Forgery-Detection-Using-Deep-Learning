@@ -45,21 +45,17 @@ Dataset/
 **/Dataset/
 
 # Model artifacts & arrays
-model/
 model1/
-**/model/               # any nested 'model' directories
 **/checkpoints/
 **/runs/
 **/logs/
 
 # Common ML binaries
-*.keras
 *.h5
 *.hdf5
 *.pkl
 *.pckl
 *.pickle
-*.npy
 *.npz
 *.pt
 *.pth
